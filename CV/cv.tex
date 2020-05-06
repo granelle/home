@@ -1,0 +1,197 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
+\newcommand{\tab}[1]{\hspace{.2\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Se-eun Yoon}
+\address{Email: seeuny@kaist.ac.kr}
+\address{Web: seeuny.com}
+
+\begin{document}
+
+% Education
+
+\begin{rSection}{Education}
+{\bf Korea Advanced Institute of Science and Technology (KAIST)} \hfill \textit{ Aug. 2020 (Expected)} 
+\\M.S. in Electrical Engineering
+\\Advisors: Yung Yi \& Kijung Shin
+
+{\bf Korea Advanced Institute of Science and Technology (KAIST)} \hfill \textit{ Aug. 2018} 
+\\B.S. in Electrical Engineering (Summa Cum Laude)
+\end{rSection}
+
+% Research Interests
+
+\begin{rSection}{Research Interests}
+Machine Learning, Data Mining, Graph Mining, Human-Centered Artificial Intelligence
+\end{rSection}
+
+\begin{rSection}{Awards \& Honors}
+\textbf{Dean's List} \hfill \textit{ Spring 2015, Fall 2015, Spring 2016, Fall 2016} 
+\\Top 3\% in KAIST EE
+
+{\bf Department Honors Scholarship} \hfill {\em Spring 2015, Spring 2016} 
+\\Top 3 in KAIST EE
+\end{rSection}
+
+% Publications
+
+\begin{rSection}{International Publications}
+	\begin{enumerate}
+	\item How Much and When Do We Need Higher-order Information in Hypergraphs? A Case Study on Hyperedge Prediction \\
+	\underline{Se-eun Yoon}, Hyungseok Song, Kijung Shin, and Yung Yi\\
+	\textbf{TheWebConf 2020} (formerly WWW) (short paper)
+	
+	\item Solving Continual Combinatorial Selection via Deep Reinforcement Learning\\
+	Hyungseok Song, Hyeryung Jang, Hai H. Tran, \underline{Se-eun Yoon}, Kyunghwan Son, Donggyu Yun, Hyoju Chung, and Yung Yi\\
+	\textbf{IJCAI 2019}
+	\end{enumerate}
+\end{rSection}
+
+
+\begin{rSection}{Domestic Publications}
+	\begin{enumerate}
+	\item Energy Consumption at UAVs: A Deep Learning Approach\\
+	\underline{Se-eun Yoon}, Daewoo Kim, and Yung Yi\\
+	\textbf{KSC 2017}\footnote{Korea Software Congress}
+	
+	\item AI-based Drone Object Tracking System: Design and Implementation\\
+	Daewoo Kim, Wanju Kang, Yoonpyo Koo, Jihwan Bang, Kyunghwan Sohn, David Hostallero, \underline{Se-eun Yoon}, Hyunho Yeo, Jaehyung Ha, Nansol Seo, Dongsu Han and Yung Yi\\
+	\textbf{KICS 2017} \footnote{The Journal of Korean Institute of Communications and Information Society}
+	
+	\item On the Efficiency of Running Machine Learning Tasks for Drone-based Target Tracking: Cloud-based vs. Drone-based\\
+	Kyunghwan Sohn, David Hostallero, Daewoo Kim, Wanju Kang, Yoonpyo Koo, Jihwan Bang, \underline{Se-eun Yoon}, Hyunho Yeo, Jaehyung Ha, Nansol Seo, Dongsu Han and Yung Yi\\
+	\textbf{KICS 2017}
+\end{enumerate}
+
+\end{rSection}
+
+\newpage
+% Projects
+
+\begin{rSection}{Projects}
+\textbf{Application services using power consumption data}
+\hfill \textit{Aug. 2018 - Present}\\
+\textit{Supporter: Korea Electric Power Corporation}
+\begin{itemize}
+	\item Developed a deep learning-based system that predicts future open/close times of a store by referring to a time series of its power consumption data. 
+	\item Applied various techniques to handle, process, and analyze real data. These include: raw data parsing and labeling, noise/periodicity analysis, missing data handling, clustering, artificial label generation, and filtering.
+	\item Interacted with the Oracle Database for real-time prediction services.
+\end{itemize}
+
+\textbf{Learning-based framework for improving large-scale search}
+\hfill \textit{Jan. 2018 - Jul. 2018}\\
+\textit{Supporter: NAVER}
+\begin{itemize}
+	\item Developed algorithms that select a single search query each day among a large (real-world scale) candidate set. The queries are selected based on given statistics, such as search rate history. The objective is to maximize user satisfaction by selecting, for that day, the query whose result page is in most pressing need for an update. The result page update mechanism is fixed and given.
+	\item One of the algorithms we implemented was based on deep reinforcement learning. The main challenge was scalability, i.e., to select from a large pool of search queries. Reducing the number of neural network parameters through parameter sharing was the key solution to solving this problem.
+\end{itemize}
+
+\textbf{Collective drone technology combining AI and 5G}
+\hfill \textit{Apr. 2017 - Dec. 2017}\\
+\textit{Supporter: Korean Government}
+\begin{itemize}
+	\item Made drones learn to follow a moving target. The target is captured by a built-in camera. This means there are two sub-tasks: image recognition and target tracking. I focused on the target tracking part and developed algorithms based on reinforcement learning. 
+	\item Developed a deep learning-based energy consumption model for drones. Given the current state of the drone (e.g., velocity, altitude, pitch and roll), the task was to predict the energy consumption level. The ultimate purpose was to insert the model within the larger system of target tracking, such that the drones may learn energy-efficient paths.
+\end{itemize}
+
+\end{rSection}
+
+% Teaching
+
+\begin{rSection}{Teaching}
+{\bf Teaching Assistant} 
+\\ - KAIST AI601 Graph Mining and Social Network Analysis \hfill \textit{Fall 2019}
+\\ - KAIST EE209 Programming Structures for Electrical Engineering \hfill \textit{Spring 2019}
+\\ - KAIST EE495 Individual Study \hfill \textit{Winter 2020}
+\\ - KAIST EE495 Individual Study \hfill \textit{Summer 2019}
+\\ - Samsung DS-KAIST AI Expert Program \hfill {\em Summer 2019}
+\\ - KICS Special Lecture: Deep Learning with Tensorflow \hfill \textit{Winter 2019}
+
+{\bf Tutor} 
+\\ - KAIST EE321 Communication Engineering \hfill \textit{Fall 2017}
+\\ - KAIST PH141 General Physics \hfill \textit{Spring 2016}
+
+{\bf Instructor}
+\\ - KMLA Science Camp: physics and mathematics  \hfill \textit{Aug. 2016, Jan. 2017, Aug. 2017}
+\end{rSection}
+
+\newpage
+% Courses
+
+\begin{rSection}{Courses}
+
+\textbf{Theory-oriented} 
+\\ - IE539 Convex Optimization
+\hfill {\em A}
+\\ - IE801 Game Theory with Engineering Applications
+\hfill {\em A}
+\\ - EE202 Signals and Systems
+\hfill {\em A}
+\\ - EE204 Electromagnetics
+\hfill {\em A+}
+\\ - EE210 Probability and Introductory Random Processes
+\hfill {\em A+}
+\\ - EE321 Communication Engineering
+\hfill {\em A}
+\\ - EE432 Digital Signal Processing
+\hfill {\em A+}
+\\ - EE528 Engineering Random Processes
+\hfill {\em B+}
+\\ - EE655 Economics in Communication Networks
+\hfill {\em A+}
+\\ - MAS109 Introduction to Linear Algebra 
+\hfill {\em A+}
+\\ - MAS201 Differential Equations and Applications
+\hfill {\em A+}
+\\ - MAS501 Analysis for Engineers
+\hfill {\em A+}
+
+{\bf Implementation-oriented}  
+\\ - IE646 Data Mining
+\hfill {\em A}
+\\ - EE209 Programming Structure for Electrical Engineering
+\hfill {\em A+}
+\\ - EE303 Digital System Design
+\hfill {\em A+}
+\\ - EE305 Introduction to Electronics Design Lab
+\hfill {\em A+}
+\\ - EE323 Computer Networks
+\hfill {\em A}
+\\ - EE405 Electronics Design Lab: Network of Smart Systems
+\hfill {\em A+}
+\\ - EE414 Embedded Systems
+\hfill {\em A+}
+\\ - EE474 Introduction to Multimedia
+\hfill {\em A+}
+\\ - EE807 Special Topics in Electrical Engineering: Deep Reinforcement Learning and AlphaGo
+\hfill {\em A+}
+
+\textbf{Circuits \& Devices}
+\\ - EE201 Circuit Theory
+\hfill {\em A+}
+\\ - EE211 Introduction to Physical Electronics
+\hfill {\em A+}
+\\ - EE304 Electronic Circuits
+\hfill {\em A+}
+\\ - EE362 Semiconductor Devices
+\hfill {\em A}
+\\ - EE403 Analog Electronic Circuits
+\hfill {\em A}
+
+\end{rSection}
+
+% Technical skills
+
+\begin{rSection}{Technical skills}
+Python (Pytorch, Tensorflow), C, C++, Matlab, Verilog, HTML, CSS, Javascript, node.js, PHP, Ruby on Rails, Oracle
+\end{rSection}
+
+
+% Misc. skills
+
+\begin{rSection}{Misc.}
+Taekwondo 1st Dan, Kendo 1st Dan	
+\end{rSection}
+
+\end{document}
