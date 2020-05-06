@@ -1,0 +1,92 @@
+
+/* General */
+body{
+	font-family:"Open Sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helvetica, Arial, Tahoma, sans-serif;
+	font-size: 20px;
+}
+
+/* About Section */
+#about {
+   background: #fff2e6;
+   padding-top: 36px;
+   padding-bottom: 26px;
+   overflow: hidden;
+}
+
+#about a:link, a:visited{
+	color: 	#2F4F4F;
+	font-weight:bold;
+  text-decoration: none;
+}
+a:hover, a:focus, a:active{
+	/* color: #800000; */
+	background-color: #E3E0D1;
+}
+
+#about h1 {
+   font: 30px/40px 'opensans', sans-serif;
+   font-weight: bold;
+   color: black;
+   margin-bottom: 12px;
+}
+#about h2 {
+   font: 22px/30px 'opensans', sans-serif;
+   font-weight: bold;
+   color: black;
+   margin-bottom: 12px;
+}
+#about p {
+   line-height: 25px;
+   color: #696969;
+}
+#about .profile-pic {
+   position: center;
+   width: 80%;
+   height: auto;
+	 padding-top: 23px;
+}
+#about .name {
+   font-weight: bold;
+   color: black;
+   margin-bottom: 12px;
+}
+#about .affiliation {
+   color: #800000;
+   font-weight:bold;
+   /* text-decoration: underline; */
+   margin-bottom: 12px;
+}
+#about .main-col {
+   padding-right: 5%;
+}
+#about .contact-details {
+   width: 50%;
+   float: left;
+}
+#about .download {
+   width: 30%;
+   margin-top: 80%
+   padding-top: 6px;
+}
+#about .download .button{
+  margin-top: 40%;
+  padding: 15px 30px;
+  background-color: #555555;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#about .download .button:hover {
+   background: #E3E0D1;
+   color: black;
+}
+#about .download .button i {
+  margin: 10px;
+  font-size: 20px;
+}
+#contact {
+	margin-top: 10%;
+}
