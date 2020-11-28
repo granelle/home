@@ -5,7 +5,7 @@
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \name{Se-eun Yoon}
 \address{Email: seeuny@kaist.ac.kr}
-\address{Web: seeuny.com}
+\address{Web: https://seeuny.com}
 
 \begin{document}
 
@@ -79,36 +79,37 @@ Machine learning, data mining, social network analysis, information retrieval, r
 % Projects
 
 \begin{rSection}{Projects}
-\textbf{COVID-19 task force}
-\hfill \textit{Mar. 2020 - Jul. 2020}\\
-\textit{Supporter: KAIST}
-\begin{itemize}
-	\item Developed methods for inferring the daily infected cases of COVID-19 from the daily confirmed cases. Modified classic epidemic models to better understand the spread of the virus.
-\end{itemize}	
+
+%\textbf{COVID-19 task force}
+%\hfill \textit{Mar. 2020 - Jul. 2020}\\
+%\textit{Supporter: KAIST}
+%\begin{itemize}
+%	\item Developed methods for inferring the daily infected cases from the daily confirmed cases.
+%\end{itemize}	
 	
 \textbf{Application services using power consumption data}
-\hfill \textit{Aug. 2018 - Mar. 2020}\\
+\hfill \textit{Aug. 2018 - Jul. 2020}\\
 \textit{Supporter: Korea Electric Power Corporation}
 \begin{itemize}
-	\item Developed a deep learning-based system for real service that provides predictions of open/close times of commercial facilities. The prediction was made by learning from power consumption data in the form of time series. 
-	\item One of the challenges came from noisy and missing data. We tackled this problem by applying various machine learning and data processing techniques, such as data cleaning and aggregation, unsupervised/semi-supervised learning, clustering, and crowdsourcing.
+	\item Developed a deep learning-based software that predicts the operating hours of commercial facilities from time-series data of electric power consumption. Handled noisy data with inaccurate or missing labels. Used the Oracle Database to run machine learning on it.
+	\item Applied various machine learning techniques, such as data preprocessing, semi-supervised learning, uncertainty estimation, clustering, and crowdsourcing.
 \end{itemize}
 
 \textbf{Learning-based framework for improving large-scale search}
 \hfill \textit{Jan. 2018 - Jul. 2018}\\
 \textit{Supporter: NAVER}
 \begin{itemize}
-	\item Developed algorithms that recommended a keyword among a large candidate set per day. The goal was to find the keyword (or query) that would produce the highest satisfaction of users if its results page were updated. 
-	\item Handled the scalability issue of deep reinforcement learning methods. If the action space was given as the set of all keywords, DQN performed more poorly than greedy methods. The issue was solved by parameter sharing, which we further developed into a research paper in IJCAI.
+	\item Developed algorithms for selecting an item among a large candidate set. Items were search engine queries. The selected item should yield greatest user satisfaction upon update of its results page.
+	\item Handled the scalability issue of deep reinforcement learning methods. Applied weight sharing to neural networks to enhance performance and efficiency. Expanded the problem into set selection.
 	
 \end{itemize}
 
 \textbf{Collective drone technology combining AI and 5G}
-\hfill \textit{Apr. 2017 - Dec. 2017}\\
+\hfill \textit{Jul. 2017 - Dec. 2017}\\
 \textit{Supporter: Korean Government}
 \begin{itemize}
-	\item Made drones learn to follow a moving target. The target was captured by a built-in camera. There were two sub-tasks: image recognition and target tracking. I focused on the target tracking part and developed algorithms based on reinforcement learning. We first worked on the simulated environment and then ran drones in the field.
-	\item Developed a deep learning-based energy consumption model for drones. Given the state of a drone (e.g., velocity, altitude, pitch and roll), the task was to infer its energy consumption level. The purpose was to insert my model within the larger system of target tracking, such that the drones may learn long-term energy-efficient paths.
+	\item Made drones learn to follow a moving target. Implemented reinforcement learning algorithms on a drone simulator. The target was captured by a built-in camera. There were two sub-tasks: image recognition and target tracking. I focused on the target tracking part and developed algorithms based on reinforcement learning.
+	\item Developed a deep learning-based energy consumption model to make drones learn energy-efficient paths. Given the state of a drone (e.g., velocity, altitude, pitch, and roll), the task was to infer its energy consumption level.
 \end{itemize}
 
 \end{rSection}
@@ -118,17 +119,24 @@ Machine learning, data mining, social network analysis, information retrieval, r
 \begin{rSection}{Other selected research experience}
 
 \textbf{Undergraduate intern}
+\hfill \textit{Mar. 2017 - Jul. 2017}\\
+\textit{Advisor: Prof. Hyun Wook Park}
+\begin{itemize}
+	\item Studied the principles of magnetic resonance imaging (MRI). Focused on recent advances in cardiac MRI research and searched for ways to make it easier for humans to use.
+\end{itemize}
+ 	
+\textbf{Undergraduate intern}
 \hfill \textit{Mar. 2016 - Dec. 2016}\\
 \textit{Advisor: Prof. Yong Man Ro}
 \begin{itemize}
-	\item Studied and implemented methods for computer aided diagnoses of breast cancer. I applied various models to classify mammograms as cancer or benign, and applied image processing methods to improve prediction quality.
+	\item Studied and implemented methods for computer-aided diagnoses of breast cancer. Applied machine learning to classify mammograms as cancer or benign and image processing methods to improve prediction quality.
 \end{itemize}
 
 \textbf{Undergraduate intern}
 \hfill \textit{Jan. 2016 - Feb. 2016}\\
 \textit{Advisor: Prof. Dongsu Han}
 \begin{itemize}
-	\item Participated in a project for AI-based automatic surveillance systems. The goal was to build a deep model that detected fire whenever it was caught on a security camera. My task was to improve the accuracy of the neural network inferring the existence of fire within an image.
+	\item Participated in a project on AI-based automatic surveillance systems. The goal was to build a system that detected fire whenever caught on a security camera. My task was to improve the accuracy of the model classifying the existence of fire within any given image.
 \end{itemize}
 
 \end{rSection}
@@ -198,7 +206,7 @@ Machine learning, data mining, social network analysis, information retrieval, r
 \\ - MAS109 Introduction to Linear Algebra 
 \hfill {\em A+}
 
-{\bf Implementation-oriented}  
+{\bf Systems-oriented}  
 \\ - EE414 Embedded Systems
 \hfill {\em A+}
 \\ - EE323 Computer Networks
@@ -228,7 +236,7 @@ Machine learning, data mining, social network analysis, information retrieval, r
 % Technical skills
 
 \begin{rSection}{Technical skills}
-Python (Pytorch, Tensorflow), Julia, MATLAB, C, C++, Verilog  \\
+Python (Pytorch, Tensorflow), Julia, MATLAB, C, C++  \\
 HTML, CSS, Javascript, Ruby on Rails\\
 MySQL, Oracle
 \end{rSection}
