@@ -155,7 +155,7 @@ properly.
      display: inline-block;
    }
    #firstp{
-     padding-top: 650px;
+     padding-top: 100px;
    }
 
    .row .row { width: auto; max-width: none; margin: 0 -30px; }
