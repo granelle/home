@@ -1,0 +1,80 @@
+
+/* General */
+body{
+	font-family:"Open Sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helvetica, Arial, Tahoma, sans-serif;
+	font-size: 20px;
+}
+
+/* About Section */
+#about {
+   background: #f9f9eb;
+   padding-top: 36px;
+   padding-bottom: 26px;
+   overflow: hidden;
+}
+
+#about a:link, #about a:visited{
+	color: 	#2F4F4F;
+	font-weight:bold;
+  text-decoration: none;
+}
+a:hover, a:focus, a:active{
+	/* color: #800000; */
+	background-color: #E3E0D1;
+}
+
+#about h1 {
+   font: 30px/40px 'opensans', sans-serif;
+   font-weight: bold;
+   color: black;
+   margin-bottom: 12px;
+}
+#about h2 {
+   font: 22px/30px 'opensans', sans-serif;
+   font-weight: bold;
+   color: black;
+   margin-bottom: 12px;
+}
+/* #about p {
+   
+   line-height: 25px;
+   padding-top: 25px;
+   color: #696969;
+} */
+
+#about .main-col {
+   padding-right: 5%;
+}
+
+#about .firstp {
+   line-height: 25px;
+   color: #696969;
+}
+
+#about .profile-pic {
+   position: center;
+   width: 100%;
+   height: auto;
+	padding-top: 35px;
+}
+#about .name {
+   font: 24px/32px 'opensans', sans-serif;
+   font-weight: bold;
+   color: black;
+   margin-bottom: 15px;
+}
+#about .pronounce {
+   font: 18px/18px 'opensans', sans-serif;
+   color: #000000;
+   line-height: 26px;
+   margin-bottom: 30px;
+}
+
+#about .contact {
+   font: 18px/18px 'opensans', sans-serif;
+   color:  #333;
+   margin-top: 12px;
+   margin-bottom: 12px;
+}
+
+

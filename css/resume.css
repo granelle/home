@@ -1,0 +1,46 @@
+/* Resume section */
+
+#resume {
+   background: #f9f9eb;
+   padding-top: 18px;
+   padding-bottom: 26px;
+   overflow: hidden;
+}
+#resume .header-col { padding-top: 9px; }
+#resume .main-col { padding-right: 10%; }
+#resume .education, .work, .awards, .teaching {
+   padding-bottom: 10px;
+   margin-top: 10px;
+   margin-bottom: 0px;
+   /* border-bottom: 1px solid #E8E8E8; */
+   /* TODO:  */
+}
+
+#resume h1 {
+   font: 24px/32px 'opensans', sans-serif;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+#resume h5 {
+   font: 20px/28px 'opensans', sans-serif;
+   font-weight: bold;
+   margin-top: 10px;
+   margin-bottom: 1px;
+}
+
+#resume a:link, #research a:visited{
+	color: 	#250094;
+	font-weight:bold;
+   text-decoration: none;
+}
+
+#resume .info {
+   font: 20px/24px 'opensans', sans-serif;
+   color: black; /* TODO: */
+   margin-top: 1px;
+   padding-left: 1px;
+}
+#resume .date {
+   color: black;
+   padding-left: 10px;
+}
